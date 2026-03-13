@@ -1,11 +1,10 @@
 [tool.poetry]
 name = "django-livefield"
-version = "4.2.2"
+version = "4.2.3"
 description = "Convenient soft-deletion support for Django models"
 authors = ["Hearsay Social <opensource@hearsaysocial.com>"]
 license = "MIT"
-readme = "README.md"
-include = ["CHANGELOG.md"]
+readme = ["README.md", "CHANGELOG.md"]
 keywords = ["python", "django", "soft-delete"]
 packages = [
     { include = "livefield", from = "src" }
